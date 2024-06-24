@@ -10,4 +10,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'promise_async_await';
+  message: string = "Hello";
+  name:string = "Saket";
+
+
+  onClick(){
+    this.message = "Hello " + this.name;
+  }
 }
